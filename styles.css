@@ -68,3 +68,47 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.description{
+	min-height: 95vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
+
+.description h2,
+.description p,
+.description a{
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.description h2{
+	font-size: 3rem;
+	margin-bottom: 4vh;
+}
+
+.description p{
+	font-size: 1.5rem;
+	margin-bottom: 3vh;
+}
+
+.description a{
+	display: block;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    background-color: #345ea6;
+    color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    text-align: center;
+    padding: 1vh;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
