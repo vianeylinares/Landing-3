@@ -10,3 +10,14 @@ header{
 	background-size: cover;
 	min-height: 95vh;
 }
+
+.logo{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+.wide-distribution{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
