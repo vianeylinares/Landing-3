@@ -81,6 +81,8 @@ header{
 	flex-wrap: wrap;
 	align-items: center;
 	align-content: center;
+	padding-top: 7vh;
+	padding-bottom: 7vh;
 }
 
 .description h2,
