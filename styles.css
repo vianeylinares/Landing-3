@@ -1,3 +1,5 @@
+/* General styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 *{
@@ -10,6 +12,18 @@ html{
 	font-family: 'Tilt Neon', cursive;
 }
 
+.wide-distribution{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+
+/* Header section styles*/
+
 header{
 	background-image: url(header-background.jpg);
 	background-position: center;
@@ -21,15 +35,6 @@ header{
 .logo{
 	padding-top: 2vh;
 	padding-bottom: 2vh;
-}
-
-.wide-distribution{
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding-left: 10px;
-	padding-right: 10px;
-	box-sizing: border-box;
 }
 
 .title-and-subtitle{
@@ -74,6 +79,9 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+/* Description section styles */
 
 .description{
 	min-height: 95vh;
@@ -120,6 +128,9 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+/* Footer section styles */
 
 footer{
 	min-height: 25vh;
