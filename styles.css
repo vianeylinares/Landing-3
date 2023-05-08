@@ -112,3 +112,11 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+footer{
+	min-height: 25vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
